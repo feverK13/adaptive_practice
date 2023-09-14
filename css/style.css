@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+.square{
+    display: block;
+    width: 30%;
+    height: 40%;
+    background-color: darkcyan;
+    margin: 20px;
+}
+
+@media (min-width: 540px) and (max-width: 1025px){
+    .container{
+        background-color: lightcoral;
+        flex-direction: column;
+    }
+}
